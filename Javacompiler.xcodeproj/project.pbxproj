@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		9AA92C912414971800075A78 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA92C902414971800075A78 /* main.cpp */; };
+		9AA92C9A24149DB200075A78 /* Token.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA92C9924149DB200075A78 /* Token.cpp */; };
+		9AA92C9D2414A33A00075A78 /* DFA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 9AA92C9C2414A33A00075A78 /* DFA.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,11 @@
 /* Begin PBXFileReference section */
 		9AA92C8D2414971800075A78 /* Javacompiler */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Javacompiler; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AA92C902414971800075A78 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		9AA92C9724149DB200075A78 /* Token_Type.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Token_Type.hpp; path = ../../../VisualStudioCode/JavaCompiler/JAVAComplier/Token_Type.hpp; sourceTree = "<group>"; };
+		9AA92C9824149DB200075A78 /* Token.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Token.hpp; path = ../../../VisualStudioCode/JavaCompiler/JAVAComplier/Token.hpp; sourceTree = "<group>"; };
+		9AA92C9924149DB200075A78 /* Token.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Token.cpp; path = ../../../VisualStudioCode/JavaCompiler/JAVAComplier/Token.cpp; sourceTree = "<group>"; };
+		9AA92C9B24149DD900075A78 /* DFA.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DFA.hpp; sourceTree = "<group>"; };
+		9AA92C9C2414A33A00075A78 /* DFA.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DFA.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +64,12 @@
 		9AA92C8F2414971800075A78 /* Javacompiler */ = {
 			isa = PBXGroup;
 			children = (
+				9AA92C9724149DB200075A78 /* Token_Type.hpp */,
+				9AA92C9924149DB200075A78 /* Token.cpp */,
+				9AA92C9824149DB200075A78 /* Token.hpp */,
 				9AA92C902414971800075A78 /* main.cpp */,
+				9AA92C9B24149DD900075A78 /* DFA.hpp */,
+				9AA92C9C2414A33A00075A78 /* DFA.cpp */,
 			);
 			path = Javacompiler;
 			sourceTree = "<group>";
@@ -119,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9AA92C9D2414A33A00075A78 /* DFA.cpp in Sources */,
 				9AA92C912414971800075A78 /* main.cpp in Sources */,
+				9AA92C9A24149DB200075A78 /* Token.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

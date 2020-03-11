@@ -7,9 +7,24 @@
 //
 
 #include <iostream>
+#include "DFA.hpp"
+#include <vector>
+
+using namespace std;
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+//    DFA();
+    vector<string> table = {
+        //words
+        "abstruct","externs","class","final","implement","import",
+        "package","protected","public","static",
+    };
+    
+    for(int i = 0;i!=table.size();i++)
+    {
+        cout<<table[i]<<endl;
+    }
+    
     return 0;
 }

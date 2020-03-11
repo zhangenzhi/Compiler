@@ -7,3 +7,15 @@
 //
 
 #include <stdio.h>
+#include "DFA.hpp"
+
+
+//DFA::DFA(TYPE type)
+//{
+//
+//}
+
+void DFA::Build_Tree()
+{
+    root->lexeme = "START";
+}
